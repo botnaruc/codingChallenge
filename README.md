@@ -1,12 +1,16 @@
 ## Scope of use
 This script can be used to install and deploy FullNode on Linux.
 
-## Download and run script
+## Download Dockerfile and deploy.sh files
 
 ```shell
 wget https://raw.githubusercontent.com/stabilaprotocol/stabila-deployment/master/Dockerfile -O Dockerfile
 wget https://raw.githubusercontent.com/stabilaprotocol/stabila-deployment/master/deploy.sh -O deploy.sh
 bash deploy.sh start
+```
+## Run deploy.sh script
+```shell
+bash deploy.sh start 8090
 ```
 
 ## Parameter Illustration
