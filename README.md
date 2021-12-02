@@ -1,5 +1,5 @@
 ## Scope of use
-This script could be used to install and deploy FullNode on Linux.
+This script can be used to install and deploy FullNode on Linux.
 
 ## Download and run script
 
@@ -26,8 +26,7 @@ private-key optional Private key of executive for seed node, default is peer nod
 ### Deployment of FullNode on the one host.
 
 ```shell
-wget https://raw.githubusercontent.com/stabilaprotocol/StabilaDeployment/master/deploy.sh -O deploy.sh
-bash deploy.sh start
-bash deploy.sh restart
-bash deploy.sh stop
+bash deploy.sh start 8090
+bash deploy.sh restart 8090
+bash deploy.sh stop 8090
 ```
