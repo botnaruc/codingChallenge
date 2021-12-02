@@ -22,15 +22,22 @@ start Install (if not already installed) docker, fetch images, build local image
 stop Stop FullNode.jar application and related docker container.
 restart Restart FullNode.jar application.
 port required Port on which docker container will run
-private-key optional Private key of executive for seed node, default is peer node
+private-key optional Executive private key for seed node, default is peer node
 ```
 
 ## Examples
 
-### Deployment of FullNode on the one host.
+### Scripts execution
 
 ```shell
 bash deploy.sh start 8090
 bash deploy.sh restart 8090
 bash deploy.sh stop 8090
 ```
+
+### Test execution
+```shell
+bash deploy.sh start 8090
+curl -X POST -k http://172.17.0.1:8090/wallet/listexecutives
+```
+If you get executive-list json data then FullNode started successfully.
