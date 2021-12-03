@@ -1,5 +1,5 @@
 ## Linux installation and deploy
-Docker file Dockerfile provides execution environment for FullNode.
+Docker file Dockerfile provides execution environment for FullNode.<br/> 
 Bash script deploy.sh manages installation, deploy and lifecycle of FullNode execution.
 
 ## Download Dockerfile and deploy.sh files
