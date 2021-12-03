@@ -45,12 +45,12 @@ If you get executive-list json data then FullNode started successfully.
 ## Windows installation and deploy
 
 ## Download and install Docker
-Download Docker from https://download.docker.com/win/static/stable/x86_64/docker-20.10.9.zip
-Unzip and open docker folder
-Double-click docker.exe to run the installer.
-Follow the Install Wizard: accept the license, authorize the installer, and proceed with the install.
-Click Finish to launch Docker.
-Docker starts automatically.
+Download Docker from https://download.docker.com/win/static/stable/x86_64/docker-20.10.9.zip<br/>
+Unzip and open docker folder<br/>
+Double-click docker.exe to run the installer.<br/>
+Follow the Install Wizard: accept the license, authorize the installer, and proceed with the install.<br/>
+Click Finish to launch Docker.<br/>
+Docker starts automatically.<br/>
 Docker loads a “Welcome” window giving you tips and access to the Docker documentation.
 
 ## Download Dockerfile and deploy.sh files
